@@ -1,5 +1,5 @@
 # PyPhy
-This is an open-source Physics simulator project that will try to simulate, and illustrate various physics phenomenons.
+This Python-based open-source Physics simulator project will try to simulate and illustrate various physics phenomena.
 
 # This project includes
 ---
