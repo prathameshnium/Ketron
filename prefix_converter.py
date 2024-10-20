@@ -1,4 +1,4 @@
-# Unit prefix converter (mini-program)
+# Unit Prefix converter (mini-program)
 
 prefixes = {
     'T': 10**12,   # tera
@@ -31,6 +31,6 @@ values = user_input.split(',')
 values = [value.strip() for value in values]
 
 # does find the Coefficient in new unt   
-converted=float(values[0])*float(prefixes[values[1]])/float(prefixes[values[2]])
+converted = eval(values[0]) * float(prefixes[values[1]]) / float(prefixes[values[2]])
 #output
 print(f"The {values[0]} {values[1]} is : {converted:.2e} {values[2]}")
