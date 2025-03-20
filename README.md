@@ -1,4 +1,4 @@
-# PyPhy
+# Ketron (previously pyphy)
 Welcome to the Open-Source Code Archive! This repository is dedicated to sharing completed projects and code snippets that I believe may be helpful to others in the programming community. I hope you find something valuable here.
 
 # Projects
