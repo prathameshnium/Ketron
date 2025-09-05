@@ -1,15 +1,35 @@
-# Ketron (previously pyphy)
-Welcome to the Open-Source Code Archive! This repository is dedicated to sharing completed projects and code snippets that I believe may be helpful to others in the programming community. I hope you find something valuable here.
+Ketron (previously pyphy) 
 
-# Projects
-Here are some of the projects featured in the Ketron:
+Welcome to the Ketron Open-Source Code Archive! This repository is dedicated to sharing completed projects and code snippets that may be helpful to others in the programming community. I hope you find something valuable here.
+Projects
 
-# Contributing
-Contributions are highly encouraged! If you have suggestions for improvements, bug fixes, or new features, please consider forking the repository and submitting a pull request. You can also open an issue to discuss any ideas or concerns you may have.
+Here are some of the projects featured in this repository:
 
-# Contact
+    Dielectric: Scripts and data related to dielectric materials and measurements.
 
-If you have any questions, or feedback, or would like to connect, please feel free to reach out to me at {To be added}.
-# License
-*Free as in freedom*
-This project is licensed under the GNU General Public License (GPL). See the LICENSE file for more information.
+    Latex: A collection of LaTeX templates, styles, and example documents.
+
+    Linux: Notes and scripts for Linux, including a guide to basic commands.
+
+    Msc_MATLAB_Project: My Master's projects developed using MATLAB, focusing on simulations like Random Walk and Diffraction.
+
+    Msc_Python_Project: My Master's project developed using Python.
+
+    Python_Addon: Resources and guides for offline installation. Python packages.
+
+Contributing
+
+Contributions are highly encouraged! If you have suggestions for improvements, bug fixes, or new features, please consider forking the repository and submitting a pull request. You can also open an issue to discuss any ideas or concerns.
+Contact
+
+If you have any questions, feedback, or would like to connect, please feel free to reach out:
+
+    Email: prathameshnium@duck.com
+
+    GitHub Profile: [prathameshnium]((https://github.com/prathameshnium)
+
+License
+
+Free as in freedom
+
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more information.
