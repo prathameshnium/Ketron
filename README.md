@@ -30,6 +30,4 @@ If you have any questions, feedback, or would like to connect, please feel free 
 
 License
 
-Free as in freedom
-
-This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more information.
+This project is licensed under the MIT License. See the LICENSE file for more details.
