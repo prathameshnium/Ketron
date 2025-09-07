@@ -27,20 +27,40 @@
 
 \documentclass[final,3p,times,twocolumn]{elsarticle}
 
-\bibliographystyle{elsarticle-num}
-\biboptions{sort&compress} % for sorting refrences
-\usepackage{graphicx} 
-\usepackage{dcolumn}
-\usepackage{bm}
-\usepackage{float}
-\usepackage{comment} % to add commnets
+% --- PACKAGES ---
+\usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{dcolumn}      % Align table columns on decimal point
+\usepackage{bm}           % Access bold symbols in maths mode
+\usepackage{subcaption}   % For subfigures
+\usepackage{arydshln}     % For dashed lines in tables
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage{comment}
+\usepackage{float}
+% --- BIBLIOGRAPHY ---
+\bibliographystyle{elsarticle-num}
+\biboptions{sort&compress}
 
-\usepackage{booktabs} % for table formating
-\usepackage{xcolor} % for colouring text
-\DeclareUnicodeCharacter{2212}{-} % for defining a new character, if any Unicode character has errors
-%\ Journal name
+% --- HYPERREF SETUP ---
+% Load hyperref last for best compatibility
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,      
+    citecolor=black,      
+    filecolor=black,      
+    urlcolor=blue        
+}
+% --- UNICODE CHARACTERS ---
+\DeclareUnicodeCharacter{2212}{-}
+\DeclareUnicodeCharacter{2264}{\le}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \journal{Journal Name Here}
 
 \begin{document}
@@ -86,7 +106,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 \section{Introduction}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\cite{shimizu_magnetic_2003}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\cite{deshmukh_exploration_2025}.
 
 \section{Experimental details}
 
@@ -104,7 +124,7 @@ nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
 \label{Fig:Image1}
 \end{figure}   
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse \ref{Fig:Image1}cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse Fig.\ref{Fig:Image1}cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 \section{Conclusion}
 
