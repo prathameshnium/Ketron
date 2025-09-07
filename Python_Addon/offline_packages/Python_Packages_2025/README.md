@@ -1,4 +1,4 @@
-# Offline Python Packages for Scientific Computing 
+# Offline Python Packages for Scientific Computing Sep-2025
 
 ## About This Directory
 
