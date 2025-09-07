@@ -33,3 +33,10 @@ Next, you'll transfer and install the files on the offline machine.
     * **Note:** If you get an error with a `.tar` file, check if the extension is `.tar` or `.tar.gz` and use the correct one in the command.
   
       Source: https://youtu.be/RadXs2Atw7E
+    
+
+    Example:
+
+    ```bash
+    pip download matplotlib pandas scipy numpy lakeshore pyvisa visa PyMeasure PyVISA-py -d "F:\Python_Packages_2025"
+    ```
