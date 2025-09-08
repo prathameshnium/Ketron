@@ -1,9 +1,25 @@
-#Msc Python Project (2021)
+"""
+Msc Python Project (2021)
+Name: Prathamesh Deshmukh
+Que 1 Matrix Multiplication
 
-#Name: Prathamesh Deshmukh
+Description:
+This script performs matrix multiplication on two matrices provided by the user.
+It first prompts the user to enter the dimensions (rows and columns) and then
+the individual elements for each matrix. The script validates if the matrices
+are compatible for multiplication (i.e., columns of the first matrix equal
+rows of the second). The multiplication is implemented from scratch using a
+manual, triple-nested loop algorithm. The NumPy library is used only to confirm
+the dimensions of the input and resulting matrices, not for the calculation itself.
 
-#Que 1 Matrix Multiplication
+Dependencies:
+- numpy
 
+Usage:
+Run the script from the command line. Follow the prompts to enter the
+dimensions and elements for both matrices. The resulting matrix or an
+error message will be printed to the console.
+"""
 
 import numpy as np
 
