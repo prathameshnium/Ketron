@@ -1,8 +1,34 @@
-#Msc Python Project (2021)
+"""
+Msc Python Project (2021)
+Name: Prathamesh k Deshmukh
+Que 3 Projectile motion
 
-#Name: Prathamesh k Deshmukh
+Description:
+This script simulates and plots the trajectory of a projectile launched from an
+initial height with a given initial velocity. It calculates and compares the
+motion for several predefined launch angles (30, 45, and 60 degrees).
 
-#Que 3 Projectile motion
+For each angle, the script computes key physical quantities:
+- Time of flight (by solving the quadratic equation for vertical displacement)
+- Horizontal range
+- Maximum height achieved
+- Final velocity components upon impact
+
+The script generates a comparative plot showing the trajectory for each launch
+angle on a single graph using Matplotlib. Additionally, it logs the calculated
+physical quantities to 'myfile02.txt' and the time-stamped coordinates of
+each trajectory to 'myfile01.txt'.
+
+Dependencies:
+- numpy
+- matplotlib
+
+Usage:
+Run the script directly. The initial conditions like height 'h', initial
+speed 'u', and the list of angles can be modified in the script to simulate
+different scenarios. The output will be a plot displayed on the screen and two
+data files saved in the same directory.
+"""
 
 import matplotlib.pyplot as plt
 import numpy as np
