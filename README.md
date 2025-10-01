@@ -1,33 +1,46 @@
-Ketron (previously pyphy) 
+# Ketron (Project Archive Hub)
 
-Welcome to the Ketron Open-Source Code Archive! This repository is dedicated to sharing completed projects and code snippets that may be helpful to others in the programming community. I hope you find something valuable here.
-Projects
+**This Repository Has Been Reorganized**
 
-Here are some of the projects featured in this repository:
+Welcome to the Ketron repository! This space previously served as an open-source archive for various projects and code snippets. To improve organization and make the code easier to find and maintain, all projects have been moved to new, specialized repositories.
 
-    Dielectric: Scripts and data related to dielectric materials and measurements.
+Below is a guide to where you can now find the original projects.
 
-    Latex: A collection of LaTeX templates, styles, and example documents.
+---
+## Project Locations
 
-    Linux: Notes and scripts for Linux, including a guide to basic commands.
+The code from this archive has been relocated to the following focused repositories:
 
-    Msc_MATLAB_Project: My Master's projects developed using MATLAB, focusing on simulations like Random Walk and Diffraction.
+### [Physics-Simulation-Toolkit](https://github.com/prathameshnium/Physics-Simulation-Toolkit)
+A collection of Python and MATLAB scripts for simulating and visualizing phenomena in condensed matter physics.
+- *Contains the former `Dielectric`, `Msc_MATLAB_Project`, and `Msc_Python_Project` folders.*
 
-    Msc_Python_Project: My Master's project developed using Python.
+### [Scientific-Python-Snippets](https://github.com/prathameshnium/Scientific-Python-Snippets)
+A curated collection of small, reusable Python scripts and utilities for common data handling and automation tasks.
+- *Contains the former `Python_Addon` folder and `prefix_converter.py` script.*
 
-    Python_Addon: Resources and guides for offline installation. Python packages.
+### [Latex-Templates](https://github.com/prathameshnium/Latex-Templates)
+A dedicated repository for academic LaTeX templates, styles, and example documents.
+- *Contains the former `Latex` folder.*
 
-Contributing
+### [Linux-Notes](https://github.com/prathameshnium/Linux-Notes)
+Notes, guides, and useful scripts for working with the Linux operating system.
+- *Contains the former `Linux` folder.*
 
-Contributions are highly encouraged! If you have suggestions for improvements, bug fixes, or new features, please consider forking the repository and submitting a pull request. You can also open an issue to discuss any ideas or concerns.
-Contact
+---
+## Contributing
 
-If you have any questions, feedback, or would like to connect, please feel free to reach out:
+While the code has been moved, you are highly encouraged to contribute to the new repositories. Please consider forking the relevant repository and submitting a pull request, or opening an issue to discuss any ideas.
 
-    Email: prathameshnium@duck.com
+---
+## Contact
 
-    GitHub Profile: [prathameshnium]((https://github.com/prathameshnium)
+If you have any questions about the reorganization or the projects, please feel free to reach out:
 
-License
+- **Email**: prathameshnium@duck.com
+- **GitHub Profile**: [prathameshnium](https://github.com/prathameshnium)
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+---
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
